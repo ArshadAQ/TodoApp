@@ -1,0 +1,192 @@
+body{
+  overflow-x: hidden;
+}
+
+  .glyphicon{
+  	font-size: 12px; !important
+  }
+  .form-control{
+  	border-radius: 25px;
+  	box-shadow: 0 0 0 0;
+  } 
+
+  .modal-content{
+  		border-radius: 0 0 0 0; !important
+  		position: fixed;
+    	top: 100px;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+  		max-width: 380px;
+      width: 100%;
+      overflow-x: hidden;
+	    overflow-y: hidden;
+      margin: 5% auto; !important
+      left: 0;
+      right: 0;
+  }
+  .modal { position: fixed; width: 100%; height: 100%; } 
+
+  .modal-header, h4 {
+      text-align: center;
+      font-size: 30px;
+      width: inherit;
+      font-family: 'Varela Round', sans-serif;
+      border-bottom: 0px;
+      margin-top: 10px;
+  }
+  #LogBtn:focus,#RegBtn:focus {outline:0;}
+  .logsub:focus,.regsub:focus,.close:focus {outline:0;}
+
+  #LogBtn,.logsub{
+      background-color: #5b9a78;
+      color: white;
+      border-radius:25px;
+      height: 60px;
+      width:120px;
+      margin-right: 20px;
+      border: 0px;
+  }
+  #LogModal .modal-header{
+      color: #5b9a78;
+  }
+  #RegModal .modal-header{
+      color: #1d67c2;
+  }
+  #RegBtn,.regsub{
+      background-color:#1d67c2;
+      border-color: #fff;
+      color: white;
+      border-radius:25px;
+      height: 60px;
+      width:120px;
+      border: 0px
+  }
+
+  button.btn.btn-success.btn.logsub, button.btn.btn-success.btn.regsub{
+  	position: relative;
+  	
+  	width: 90%;
+  	height: 45px;
+  	margin-right: 0px; !important
+  }
+
+  button.btn.btn-success.btn {
+    margin-top: 10px;
+    margin-bottom: 15px;
+	}
+
+  #LogBtn,#RegBtn{
+  	transition: width 0.5s;
+  }
+
+  .form-group input[type=text],input[type=password]{
+    margin-top: 5px;
+    width: 90%;
+    margin-left:5%; 
+  }
+
+  .form-group label{
+    margin-left:5%;
+    font-family: 'Catamaran', sans-serif;
+  }
+  .modal-dialog {
+    width: 340px;
+  }
+  .form-group{
+    text-align: left;
+    height:30px; !important
+  }
+  #logerror,#regerror, #forgoterror, #reseterror{
+    display: none;
+    border-radius: 25px;
+  }
+  div.container p{
+  	font-size: 70px;
+  }
+
+  .title{
+  	position: absolute;
+  	left:40px;
+  	color: #fff;
+  	font-size: 25px;
+  }
+
+  .regbar{
+    text-align: center;
+  }
+
+  .bigop{
+    margin-top: 150px;
+        background-color: beige;
+  }
+  .bigop span{
+    font-size: 72px;
+    /*color: #fff;*/
+    color: #564545;
+}
+
+.slab{
+  color: #fff;
+  margin: 0;
+}
+.info{
+  margin-top: 100px;
+}
+
+.slab{
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.textleft,.textright{
+  color: #000;
+   font-family: raleway;
+   box-shadow: 0 1px 3px rgba(0,0,0,.3);
+   background: #fff;
+   padding:10px;
+}
+
+
+.textleft>span,.textleft>span{
+  font-size: 1.5em;
+  font-family: raleway;
+}
+
+
+.row span{
+  display: block;
+  font-size: 1.2em;
+   color: #676767;
+  margin-bottom: 30px;
+}
+
+
+.welcome{
+  margin-bottom: 100px;
+  background: white;
+  color: black;
+  margin-left: 0;
+  min-width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+
+.imagr{
+  margin-top:30px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.welcome span{
+  color: #676767;
+}
+
+@media screen and (min-width: 480px)
+{
+    .info{
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+
+}
