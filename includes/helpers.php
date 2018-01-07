@@ -13,9 +13,6 @@
         //session_start();
         session_unset();
         session_destroy();
-        require '../vendor/autoload.php';
-        Hybrid_Auth::logoutAllProviders();
-
         /* you can also use this to destroy cookies
             // unset any session variables
             $_SESSION = [];

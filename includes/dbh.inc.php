@@ -3,7 +3,7 @@
 $dbServername="localhost";
 $dbUsername="root";
 $dbPassword="";
-$dbName="inflow1";
+$dbName="todoapp";
 
 
 $conn =mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
